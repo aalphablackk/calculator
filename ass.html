@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+</head>
+<body data-bs-theme="dark" class="container py-5">
+    
+    <section class="pt-5 mt-5">
+    <textarea class="form-control w-25 text-center m-auto" id="alertt"  rows="1" ></textarea>
+
+        <div class="mt-3 text-center " >
+            <button type="button" onclick="clearNumber()"class="btn-icon theme-secondary btn-solid btn-styled" >AC
+                
+            </button>
+            <button type="button" onclick="negNumber()" class="btn-icon theme-secondary btn-solid btn-styled" inverse>+/-
+                
+            </button>
+            <button type="button" onclick="percNumber()" class="btn-icon theme-secondary btn-solid btn-styled" inverse>%
+    
+            </button>
+            <button type="button" onclick="division()" class="btn-icon theme-warning btn-solid btn-styled" inverse >/
+                
+            </button>
+            
+        </div>
+        <div class="mt-3 text-center">
+            <button type="button" onclick="pressNumber('7')" class="btn-icon theme-inverse btn-solid btn-styled" inverse>7
+                
+            </button>
+            <button type="button" onclick="pressNumber('8')" class="btn-icon theme-inverse btn-solid btn-styled" inverse>8
+                
+            </button>
+            <button type="button" onclick="pressNumber('9')"class="btn-icon theme-inverse btn-solid btn-styled" inverse>9
+                
+            </button>
+            <button type="button" onclick="multiply()" class="btn-icon theme-warning btn-solid btn-styled" inverse>X
+                
+            </button>
+            
+        </div>
+        <div class="mt-3 text-center">
+            <button type="button" onclick="pressNumber('4')" class="btn-icon theme-inverse btn-solid btn-styled" inverse>4
+                
+            </button>
+            <button type="button" onclick="pressNumber('5')" class="btn-icon theme-inverse btn-solid btn-styled" inverse>5
+                
+            </button>
+            <button type="button" onclick="pressNumber('6')" class="btn-icon theme-inverse btn-solid btn-styled" inverse>6
+                
+            </button>
+            <button type="button"  onclick="subtract()" class="btn-icon theme-warning btn-solid btn-styled" inverse>-
+                
+            </button>
+            
+        </div>
+        <div class="mt-3 text-center">
+            <button type="button" onclick="pressNumber('1')" class="btn-icon theme-inverse btn-solid btn-styled" inverse>1
+                
+            </button>
+            <button type="button"  onclick="pressNumber('2')"class="btn-icon theme-inverse btn-solid btn-styled" inverse>2
+                
+            </button>
+            <button type="button" onclick="pressNumber('3')" class="btn-icon theme-inverse btn-solid btn-styled" inverse>3
+                
+            </button>
+            <button type="button" onclick="add()" class="btn-icon theme-warning btn-solid btn-styled" inverse>+
+                
+            </button>
+            
+        </div>
+        
+        <div class="mt-3 text-center">
+            
+            <button type="button" onclick="pressNumber('0')" class="theme-inverse btn-solid btn-styled"style="--bs-btn-padding-x: 1.4rem; --bs-btn-font-size: .75rem;">0
+                <svg class="bi ms-1" width="16" height="16" aria-hidden="true">
+                    <use href="#arrow-right" />
+                </svg>
+            </button>
+            <button type="button" class="btn-icon theme-inverse btn-solid btn-styled" inverse>.
+                
+            </button>
+            <button type="button" onclick="calculate()" class="btn-icon theme-warning btn-solid btn-styled" inverse>=
+                
+            </button>
+            
+        </div>
+
+    </section>
+
+</body>
+<script src="ass.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</html>
