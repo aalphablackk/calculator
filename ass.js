@@ -13,6 +13,9 @@ function pressNumber(number) {
         alertt.value += number;
     }
 }
+function decimalPoint() {
+    if (!alertt.value.includes(".")) alertt.value += ".";
+}
 function negNumber() {
     const display = document.getElementById("alertt");
     display.value = -Number(display.value);
